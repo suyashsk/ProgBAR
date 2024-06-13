@@ -9,7 +9,7 @@ function Progress() {
             if(oldProgress === 100){
                 return oldProgress;
             }
-            const newProgess = oldProgress+0.5;
+            const newProgess = oldProgress+1;
             return newProgess;
         })
     },200)
